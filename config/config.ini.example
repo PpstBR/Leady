@@ -1,0 +1,9 @@
+[database]
+host=host
+port=1433
+database=Database
+user=User
+password=Password
+
+[query]
+find_leads=SELECT * FROM Leads WHERE CAST(LeadDate AS date) = ?
